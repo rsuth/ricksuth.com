@@ -3,9 +3,33 @@ p {
 }
 
 h1 {
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 a {
     text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.post-img {
+    margin-right: auto;
+    display: block;
+    margin-left: auto
+}
+
+.img-caption {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center
+}
+
+.post-wrapper {
+    width: 960px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }

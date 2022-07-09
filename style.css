@@ -1,68 +1,77 @@
-body { 
-    font-family: 'DM Sans', sans-serif;
-    font-size: 16px; 
-    line-height: 1.5; 
-    font-weight: 400; 
-    color: #111; 
-    background-color: #fff; 
-    -webkit-text-size-adjust: 100%; 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    font-family: "Inconsolata";
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #111;
+    background-color: #f8f9fa;
+    -webkit-text-size-adjust: 100%;
 }
 
-h1, h3, h4, h5, h6, p { 
-    margin-bottom: 15px; 
-    
+h1,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 15px;
+
 }
 
 /** Links */
-a { 
-    color: #2a7ae2; 
-    text-decoration: none; 
+a {
+    color: #2a7ae2;
+    text-decoration: none;
 }
 
-a:visited { color: #1756a9; }
+a:visited {
+    color: #1756a9;
+}
 
 /** Wrapper */
-.wrapper { 
-    max-width: 700px; 
-    margin-right: auto; 
-    margin-left: auto; 
-    padding-right: 30px; 
-    padding-left: 30px; 
+.wrapper {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
-@media only screen and (max-width: 700px) { 
-    .wrapper { 
-        padding-right: 15px; 
-        padding-left: 15px; 
-    } 
+@media only screen and (max-width: 700px) {
+    .wrapper {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
 
 /** Site header */
-.site-header { 
-    min-height: 56px; 
-    position: relative; 
-    margin-top: 10px; 
+.site-header {
+    min-height: 56px;
+    position: relative;
+    margin-top: 20px;
 }
 
-.site-title { 
-    font-size: 32px; 
+.site-title {
+    font-size: 32px;
     line-height: 56px;
-    margin-bottom: 0; 
-    float: left; 
-    font-weight: 500; 
-    color: #000; 
-    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 0;
+    float: left;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Inconsolata', monospace;
 }
 
-.site-title:visited { 
-    color: #000; 
+.site-title:visited {
+    color: #000;
 }
 
 .site-nav {
     float: right;
     line-height: 56px;
     font-size: 16px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Inconsolata', monospace;
 }
 
 .site-nav a {
@@ -71,7 +80,7 @@ a:visited { color: #1756a9; }
 }
 
 .site-content {
-    margin-top: 60px;
+    margin-top: 45px;
 }
 
 .project-list {
@@ -105,7 +114,7 @@ img {
     margin-top: 15px;
 }
 
-@media only screen and (max-width: 700px) { 
+@media only screen and (max-width: 700px) {
     img {
         width: 300px;
     }
