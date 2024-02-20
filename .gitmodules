@@ -1,0 +1,6 @@
+[submodule "drums"]
+	path = drums
+	url = git@github.com:rsuth/js-drummachine.git
+[submodule "set"]
+	path = set
+	url = git@github.com:rsuth/setGame.git
